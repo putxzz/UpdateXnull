@@ -434,7 +434,7 @@ function getRandomImage() {
 //AutoUpdate
 bot.onText(/\/update/, async (msg) => {
   const chatId = msg.chat.id;
-  const repoRaw = "URL_RAW_KAMU"; // ganti URL raw kamu
+  const repoRaw = "https://raw.githubusercontent.com/putxzz/UpdateXnull/refs/heads/main/index.js"; // ganti URL raw kamu
 
   const loadingFrames = [
     "▰▱▱▱▱▱▱▱▱▱  `10%`",
